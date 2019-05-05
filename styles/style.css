@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700i|Assistant');
+
+html {
+	/*Colors based on #27 (gorgeous contrast) from http://blog.visme.co/website-color-schemes/*/
+	--main-background-color: #222629;
+	--main-text-color: #6B6E70;
+	--darker-text-color: #474B4F;
+	--bright-accent-color: #86C232;
+	--muted-accent-color: #61892F;
+	background-color: var(--main-background-color, grey);
+}
+
+h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: var(--bright-accent-color, white);
+}
+
+body {
+	font-family: 'Assistant', sans-serif;
+	font-size: 20px;
+	color: var(--main-text-color, white);
+}
+
+a {
+	color: var(--bright-accent-color);
+	text-decoration: none;
+}
